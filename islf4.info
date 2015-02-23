@@ -1,0 +1,60 @@
+name = Islandora Fedora 4
+description = Install the Islandora Fedora 4 profile.
+version = VERSION
+core = 7.x
+
+; -------------------
+; Enable Core modules
+; -------------------
+
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; ----------------------
+; Enable Contrib modules
+; ----------------------
+
+dependencies[] = admin_views
+dependencies[] = colorbox
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = jquery_update
+dependencies[] = libraries
+dependencies[] = services
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_bulk_operations
+
+; ---------------
+; Enable Features
+; ---------------
+
+;dependencies[] = islf4_features
+
+; ---------------------
+; Enable Custom modules
+; ---------------------
+
+;dependencies[] = custom_module
