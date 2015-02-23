@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function standard_install() {
+function islf4_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
