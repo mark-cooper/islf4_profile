@@ -1,5 +1,5 @@
 name = Islandora Fedora 4
-description = Install the Islandora Fedora 4 profile.
+description = Install the Islandora Fedora 4 profile
 version = VERSION
 core = 7.x
 
@@ -59,7 +59,7 @@ dependencies[] = islandora
 ; Enable Features
 ; ---------------
 
-;dependencies[] = islf4_features
+dependencies[] = islf4_features
 
 ; ---------------------
 ; Enable Custom modules
