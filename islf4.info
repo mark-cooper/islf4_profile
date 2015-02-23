@@ -43,9 +43,17 @@ dependencies[] = features
 dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = services
+dependencies[] = rest_server
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+
+; ------------------------
+; Enable Islandora modules
+; ------------------------
+
+dependencies[] = islandora
 
 ; ---------------
 ; Enable Features
